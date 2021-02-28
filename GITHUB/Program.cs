@@ -64,6 +64,31 @@ namespace GITHUB
             Console.WriteLine("|* ");
             Console.WriteLine("|********************************************************************************|");
 
+            Console.Write("|*   Tria una opció: ");
+            char ABCD = char.Parse(Console.ReadLine());
+
+            int acert = 0;
+            if (ABCD == 'B')
+            {
+                Console.WriteLine("|* ");
+                Console.WriteLine("|* ");
+                Console.WriteLine("|********************************************************************************|");
+                Console.WriteLine("|*                          PREGUNTA ACERTADA!                                    ");
+                Console.WriteLine("|********************************************************************************|");
+                acert++;
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("|* ");
+                Console.WriteLine("|* ");
+                Console.WriteLine("|********************************************************************************|");
+                Console.WriteLine("|*                          PREGUNTA INCORRECTE!                                    ");
+                Console.WriteLine("|********************************************************************************|");
+                Console.ReadKey();
+            }
+            Console.Clear();
+
         }
 
 
