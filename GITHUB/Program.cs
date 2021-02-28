@@ -54,6 +54,12 @@ namespace GITHUB
                 Console.Clear();
             } while (continuar_programa != 'N');
         }
+        static void PreguntaConduir1()
+        {
+
+        }
+
+
 
     }
 }
