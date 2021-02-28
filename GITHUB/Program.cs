@@ -56,6 +56,13 @@ namespace GITHUB
         }
         static void PreguntaConduir1()
         {
+            Console.WriteLine("\n\n|*  La influencia del factor de riesgo vía, como se puede disminuir?\n\n");
+            Console.WriteLine("|*          A - Circulando de noche porque hay menos tráfico:");
+            Console.WriteLine("|*          B - Adecuando la velocidad y aumentando la distancia de seguridad:");
+            Console.WriteLine("|*          C - Circulando de noche porque hay menos tráfico:");
+            Console.WriteLine("|*          D - Sin hacer nada:");
+            Console.WriteLine("|* ");
+            Console.WriteLine("|********************************************************************************|");
 
         }
 
